@@ -1,0 +1,90 @@
+=============================
+ControlProperty
+=============================
+
+Value of C# Control is set up.When Control is added, not necessary to write a code.
+
+Using component.
+
+| ControlProperty https://github.com/motoki-kimura/ControlProperty
+
+
+Using component.(example code using)
+
+| DynamicJson http://dynamicjson.codeplex.com/
+| by nene(http://neue.cc/)
+
+Using
+==========================
+
+---------
+Before
+---------
+
+Add control. Value is saved at a file.
+after code for control is written.
+
+figure: Add control.
+
+.. image:: addcontrol.png
+
+figure: Code is written.
+
+.. image:: writecode.png
+
+and add new cotrol it repeats.
+
+---------
+After
+---------
+
+It is easy if ControlProperty is used.
+
+figure: Code example.
+
+.. image:: controlpropertycoding.png
+
+
+Save all control value.
+-----------------------------
+
+figure: Trigger control.
+
+.. image:: savevalue.png
+
+For example, value is saved in JSON format.
+
+figure: Contents of a file.
+
+.. image:: jsonfile.png
+
+Set all cotrol value.
+-----------------------------
+
+figure: Trigger control.
+
+.. image:: loadvalue.png
+
+Sets automatically.
+
+.. image:: loadvalueafter.png
+
+and add new cotrol **it not repeats**.
+
+When excepting
+==========================
+
+Do not want to save data.
+
+.. image:: exlist.png
+
+Example, it excepts using LINQ.
+
+.. image:: exlistcode.png
+
+
+
+
+
+
+
